@@ -1,0 +1,38 @@
+<div class="col-md-8 order-md-1">
+    <h4 class="mb-3">Enregistrement</h4>
+    <form class="needs-validation" novalidate>
+
+        <div class="mb-3">
+            <label for="email">Nom </label>
+            <input type="text" class="form-control" placeholder="pascal">
+            <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="email">Prénom </label>
+            <input type="text" class="form-control" placeholder="pascal">
+            <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="country">Sexe</label>
+            <select class="custom-select d-block w-100" id="country" required>
+      <option value="">Choisir...</option>
+      <option>Masculin</option>
+      <option>Féminin</option>
+    </select>
+        </div>
+        <div class="mb-3">
+            <label for="address">Addresse</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 lomé" required>
+            <div class="invalid-feedback">
+                Please enter your shipping address.
+            </div>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-success btn-lg btn-block" type="submit">Enregistrer</button>
+    </form>
+</div>
+<app-footer></app-footer>
