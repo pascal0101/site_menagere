@@ -15,12 +15,18 @@
     "@angular/common": "~10.0.6",
     "@angular/compiler": "~10.0.6",
     "@angular/core": "~10.0.6",
+<<<<<<< HEAD
     "@angular/fire": "^6.0.2",
+=======
+>>>>>>> b13232618575921798cfed232d49da4dc84c13b4
     "@angular/forms": "~10.0.6",
     "@angular/platform-browser": "~10.0.6",
     "@angular/platform-browser-dynamic": "~10.0.6",
     "@angular/router": "~10.0.6",
+<<<<<<< HEAD
     "firebase": "^7.19.1",
+=======
+>>>>>>> b13232618575921798cfed232d49da4dc84c13b4
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

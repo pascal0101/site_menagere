@@ -119,6 +119,7 @@
           }
         }
       }
+<<<<<<< HEAD
     }
   },
   "defaultProject": "menagere",
@@ -126,3 +127,8 @@
     "analytics": "a0e62e30-5d36-480e-bdcc-63c619b9364a"
   }
 }
+=======
+    }},
+  "defaultProject": "menagere"
+}
+>>>>>>> b13232618575921798cfed232d49da4dc84c13b4

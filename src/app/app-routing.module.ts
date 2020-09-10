@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+<<<<<<< HEAD
 import  { AddmenagereComponent }  from './addmenagere/addmenagere.component';
 import  { AppComponent }  from './app.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
@@ -17,10 +18,17 @@ const routes: Routes = [
   { path:'menagere', component: MenagereListComponent}
 
 ];
+=======
+
+const routes: Routes = [];
+>>>>>>> b13232618575921798cfed232d49da4dc84c13b4
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+<<<<<<< HEAD
 //export class routingComponents = [AppComponent,AddmenagereComponent]
+=======
+>>>>>>> b13232618575921798cfed232d49da4dc84c13b4
